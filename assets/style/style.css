@@ -91,7 +91,31 @@ h2{
 /*Вика*/
 
 
+/*Катя*/
+.container-donation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    }
+
+.donationform {
+    width: 460px;
+    height: 560px;
+    margin-top: 100px;
+}
+
+.donationpic {
+    width: 440px;
+    height: 440px;
+    margin-top: 120px;
+    background-color: #C4C4C4;
+    }
+
+
+
+
 /*footer*/
 .footer {
     background: #1A88AF;
 }
+
