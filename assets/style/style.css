@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Light.woff2),
+        url(/assets/fonts/Roboto-Light.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Regular.woff2),
+        url(/assets/fonts/Roboto-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Bold.woff2),
+        url(/assets/fonts/Roboto-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Black.woff2),
+        url(/assets/fonts/Roboto-Black.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
+
+.wrapper{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards{
+    padding: 5%;
+}
+
+.container-fluid{
+    padding: 1%;
+}
+
+.img-fluid:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    color: var(--main-color-text, #FFF);
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+h2{
+    color: var(--background-color-text, #000);
+    font-family: "Roboto";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.title{
+    margin: 2% 0 5% 0;
+}
+
+/*header*/
+.header{
+    padding:  0 5% 0 5%;
+}
+
+.bf{
+    background: #1A88AF;
+}
+
+.grey-button{
+    margin: 5% 0 5% 0;
+}
+
+
+/*Вика*/
+
+
+/*footer*/
+.footer {
+    background: #1A88AF;
+}
