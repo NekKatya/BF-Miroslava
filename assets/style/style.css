@@ -34,17 +34,17 @@
     font-weight: 900;
 }
 
-.wrapper{
+.wrapper {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.cards{
+.cards {
     padding: 5%;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 1%;
 }
 
@@ -52,7 +52,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h1{
+h1 {
     color: var(--main-color-text, #FFF);
     font-family: 'Roboto';
     font-size: 45px;
@@ -61,7 +61,7 @@ h1{
     line-height: 50px;
 }
 
-h2{
+h2 {
     color: var(--background-color-text, #000);
     font-family: "Roboto";
     font-size: 30px;
@@ -70,20 +70,20 @@ h2{
     line-height: 40px;
 }
 
-.title{
+.title {
     margin: 2% 0 5% 0;
 }
 
 /*header*/
-.header{
-    padding:  0 5% 0 5%;
+.header {
+    padding: 0 5% 0 5%;
 }
 
-.bf{
+.bf {
     background: #1A88AF;
 }
 
-.grey-button{
+.grey-button {
     margin: 5% 0 5% 0;
 }
 
@@ -96,7 +96,7 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    }
+}
 
 .donationform {
     width: 460px;
@@ -109,11 +109,10 @@ h2{
     height: 440px;
     margin-top: 120px;
     background-color: #C4C4C4;
-    }
+}
 
-
-
+/*footer*/
 
 .footer {
-    background: #1A88AF;
+    padding: 0 5% 0 5%;
 }
