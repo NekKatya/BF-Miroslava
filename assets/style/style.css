@@ -61,6 +61,7 @@ h1 {
     line-height: 50px;
 }
 
+
 .title {
     color: var(--background-color-text, #000);
     font-family: Roboto;
@@ -169,10 +170,8 @@ h1 {
     background-color: #C4C4C4;
 }
 
-
-
-
 /*footer*/
+
 .footer {
-    background: #1A88AF;
+    padding: 0 5% 0 5%;
 }
