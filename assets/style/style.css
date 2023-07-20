@@ -61,16 +61,14 @@ h1 {
     line-height: 50px;
 }
 
-h2 {
+
+.title {
     color: var(--background-color-text, #000);
-    font-family: "Roboto";
+    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 900;
     line-height: 40px;
-}
-
-.title {
     margin: 2% 0 5% 0;
 }
 
@@ -89,6 +87,67 @@ h2 {
 
 
 /*Вика*/
+.report-item__heading {
+    color: var(--background-color-text, #000);
+
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.report-item__description {
+    color: var(--background-color-text, #000);
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.team-item__name {
+    color: var(--background-color-text, #000);
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.team-item__position {
+    color: var(--background-color-text, #000);
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.team-item__photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.title__document {
+    color: var(--background-color-text, #000);
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+
 
 
 /*Катя*/
